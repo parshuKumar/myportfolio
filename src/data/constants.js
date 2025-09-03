@@ -7,7 +7,7 @@ export const Bio = {
   description:
     "I'm a Software Development Engineer who genuinely enjoys solving complex problems and thinking through systems logically. I’ve always been drawn to distributed systems and love playing around with HLD and LLD it’s the part of the job I find most exciting. I work across the full stack but naturally lean toward backend design, building clean architectures, and making sure things run fast and smooth.",
   github: "https://github.com/parshuKumar",
-  resume: "https://drive.google.com/file/d/1QMtpjRxdAciBJ1tybNjekt8LTQIDdhmp/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1LHBN6IPhkwK-T26jV2Kg2asOiKJpKv7z/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/parshuramkumar/",
   // twitter: "#",
   // insta: "#",
