@@ -79,19 +79,25 @@ const index = () => {
         <Container id="experience">
             <Wrapper>
                 <Title>Experience</Title>
-                <Desc>
+                {/* <Desc>
                     My work experience as a software engineer and working on different projects and companies.
+                </Desc> */}
+                <Desc>
+                    I am a fresher software developer with hands-on experience through multiple real-world projects.
+                    I’ve worked extensively with the MERN stack, built full-stack applications, and explored backend design, DevOps, and system design concepts.
+                    While I don’t have industry experience yet, my projects reflect my ability to take ownership and deliver production-ready solutions.
                 </Desc>
+
                 <TimelineSection>
                     <Timeline>
-                        {experiences.map((experience,index) => (
+                        {experiences.map((experience, index) => (
                             <TimelineItem>
                                 <TimelineSeparator>
                                     <TimelineDot variant="outlined" color="secondary" />
                                     {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
-                                    <ExperienceCard experience={experience}/>
+                                    <ExperienceCard experience={experience} />
                                 </TimelineContent>
                             </TimelineItem>
                         ))}
